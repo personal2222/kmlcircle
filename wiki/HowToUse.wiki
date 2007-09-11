@@ -2,4 +2,24 @@
 
 === Circles ===
 
+{{{
+#
+# KML Regular Polygon Generator
+#
+# (longitude, latitude) in decimal degrees
+# meters is radius in meters
+# segments is number of sides, > 20 looks like a circle
+# offset, rotate polygon by a number of degrees
+#
+# returns a string suitable for adding to a KML file.
+#
+# You may want to
+#  edit this function to change "extrude" and other XML nodes.
+#
+def kml_regular_polygon(long, lat, meters, segments=30, offset=0):
+   ...
+}}}
+
+
+
 === Stars ===
