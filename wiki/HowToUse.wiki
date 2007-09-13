@@ -1,4 +1,5 @@
 #summary How to use
+#labels Featured
 
 === Command Line Interface ===
 
@@ -17,7 +18,6 @@ help
 -i, --inner     optional, inner radius in meters,  default same as 'radius'
                 this will make a 'star'
 -o, --offset    optional, rotate polygon by angle in degrees, default 0
--?, --help      this usage
 
 $ # to make a square, -s == 4
 $ # to make a circle, -s > 20
