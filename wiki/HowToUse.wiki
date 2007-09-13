@@ -79,3 +79,22 @@ def kml_regular_polygon(long, lat, meters, segments=30, offset=0):
 
 
 === Stars ===
+
+Try using an "inner" radius less than or greater than the regular radius to make "stars" and "seals."
+
+
+{{{
+#                                                                                                                                       
+# Make a "star" or "burst" pattern                                                                                                      
+#                                                                                                                                       
+# (long, lat) = center point                                                                                                            
+# outer = radius in meters                                                                                                              
+# inner = radius in meters, typically < outer                                                                                           
+# segments = number of "points" on the star                                                                                             
+# offset = rotate by degrees                                                                                                            
+#                                                                                                                                       
+# Returns a XML snippet suitable for adding into a KML file                                                                             
+#                                                                                                                                       
+def kml_star(long, lat, outer, inner, segments=10, offset=0):
+  ...
+}}}
